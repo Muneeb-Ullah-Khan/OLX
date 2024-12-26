@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Assignment 14"
+		},
+		{
+			"path": "../Examples"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Olx"
+	}
+}

@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-text{
+    padding:10px 20px;
+    display: block;
+}
+.oner{
+    color: white;
+    min-width: 500px;
+}
+.navbar-text a img{
+    width: 80px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-text a{
+    text-decoration: none;
+    vertical-align: bottom;
+    font-weight: bold;
+    font-size:20px ;
+    
+}
+
+.fa{
+    font-size: 30px;
+    vertical-align: bottom;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius:50% ;
+    background-image:linear-gradient(to bottom, rgb(170, 163, 163),white) ;
+    
+}
+
+/* __________________secnav___________ */
+
+.nav2ndsec{
+    padding: 10px 20px;
+    
+}
+.sec-nav-main{
+    border: 1px black solid;
+    border-radius: 7px;
+}
+.sec-nav-main a i{
+    vertical-align: bottom;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 9px;
+    padding:8px 10px;
+}
+
+.sec-nav-main-input{
+    border: none;
+    background-color: rgb(255, 255, 255) !important;
+}
+.sec-nav-main-input:focus{
+    outline: none;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.fa-angle-down{
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+
+.fa-angle-down:hover{
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.fa-angle-down:active{
+    border: none;
+    background-color: white !important;
+    color: black;
+}
+
+.nav-search-bar{
+border: 2px solid black;
+border-radius:9px ;
+}
+
+.nav-search-bar input{
+    border: none;
+    min-width:600px !important;
+}
+@media only screen and (max-width: 1341px) {
+    body {
+        font-size: 16px;
+        background-color: #f0f0f0;
+    }
+
+    .nav-search-bar input{
+        border: none;
+        min-width:300px !important;
+    }
+    .Sell{
+        width:70px !important;
+        vertical-align: middle;
+        font-size:15px !important;
+    }
+    .fa-plus{
+        font-size:15px !important;
+        vertical-align: middle;
+    }
+
+    .propic{
+        width: 70px;
+    }
+}
+.nav-search-bar button{
+    border: none;
+    background-color: #002f34 !important    ;
+    color: rgb(255, 255, 255);
+}
+
+.nav-search-bar button:hover{
+    border: none;
+    background-color: white !important;
+    color: black;
+}
+.nav-search-bar button:active{
+    border: none;
+    background-color: white !important;
+    color: black;
+}
+.fa-comment{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.fa-bell{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.fa-user{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.fa-angle-down-2{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.fa-plus{
+    font-size:10px;
+    vertical-align: middle;
+}
+
+.Sell{
+    font-size:10px;
+    font-weight: bolder;
+    border: 2px solid;
+    padding: 2px 10px;
+    border-radius: 30px ;
+    border-top-color: aqua;
+    border-bottom-color: rgb(53, 249, 53);
+    border-left-color:yellow ;
+    border-right-color:yellow ;
+}
+
+/* <!--________________________________________________________________________ collection------------------------------------------ --> */
+
+.all-collection-body{
+    min-width: 653px;
+}
+
+.all-categories{
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+/* <!--________________________________________________________________________  product collection------------------------------------------ --> */
+.mobile-p-des p{
+font-size: 20px;
+font-weight: lighter;
+margin: 4px;
+}
+.mobile-p-des img{
+    height: 200px;
+    
+    width:max-content;
+    
+}
+
+.iphone-25g{
+font-size:10px;
+font-weight: bold !important;
+}
+
+.mobile-p-des h6{
+    padding: 5px;
+    color: #666666;
+}
+
+.mobile-p-des h6 i{
+    margin-right: 5px;
+}
+.mobile-phones{
+    margin: 20px 0px;
+    font-weight: bold;
+    
+}
+
+.mobile-p-des{
+    border: 1px solid grey;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+/* buttons */
+
+.appstore-button {
+    display: flex inline;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border: 3px solid rgb(189, 189, 189);
+    background-color: rgb(15, 15, 15);
+    border-radius: 100px;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 100px -30px rgb(255, 255, 255);
+  }
+  .appstore-button svg {
+    width:30px;
+  }
+  .appstore-button svg path {
+    fill: white;
+    transition: all 0.3s;
+  }
+  .button-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s;
+  }
+  .top-text {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .bottom-text {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .appstore-button:hover {
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(138, 138, 138);
+  }
+  .appstore-button:hover .button-text {
+    color: black;
+  }
+  .appstore-button:hover svg path {
+    fill: black;
+  }
+  
+
+  /* =-----------------------Plastorebttn--------------------- */
+/* From Uiverse.io by DhogMiT10 */ 
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .playstore-button:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+  }
+  
+  .text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+  .text-2 {
+    font-weight: 600;
+  }
+
+  .pb{
+    color: rgb(155, 142, 142);
+    font-size: 30px;
+  }
+
+
+  /* From Uiverse.io by DhogMiT10 */ 
+
+  
+  /* footer */
+.footer-text{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 20px;
+}
+.footer-text a{
+    text-decoration: none;
+}
+.footer-text li{
+  list-style: none;
+  text-align: start;
+  padding: 4px 0;
+  font-weight: bold;
+  color: #666666;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-text li:hover{
+    color: #4897a0;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.footer-text h1{
+      font-size: 20px;
+      font-weight: bolder;
+      padding: 10px 0;
+}
+
+.footer-text{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.footerm{
+    background-image: linear-gradient(to right ,white, rgb(231, 219, 219));
+
+}
+
+.footer-button h1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+.footer-button li{
+    list-style: none;
+    display: inline;
+}
+.footer-button li i{
+   font-size: 30px;
+   margin: 0px 10px;
+}
+.footer-button a{
+    display: block;
+}
+
+
+.last{
+    background-color: #002f34;
+    color: white;
+    text-align: end;
+}
+
+.last p{
+    padding:10px 0px ;
+    padding-right: 20px;
+    font-weight: bold;
+}
